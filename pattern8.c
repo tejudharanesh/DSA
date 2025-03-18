@@ -5,11 +5,12 @@
 //   *********    
 //  ***********   
 // *************  
+//reverse this
 
 
 #include<stdio.h>
 void pattern7(n){
-    for(int i=0;i<n;i++){
+    for(int i=n-1;i>=0;i--){
         for(int j=1;j<n-i;j++){
             printf(" ");
         }
